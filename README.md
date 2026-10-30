@@ -1,4 +1,4 @@
-# barrera# mart Barrier — Sistema de Barrera Automática para Estacionamiento
+# barrera # mart Barrier — Sistema de Barrera Automática para Estacionamiento
 
 ##  Sobre el Proyecto
 Sistema de control de acceso vehicular automatizado desarrollado sobre Arduino UNO. Su objetivo principal es simular el funcionamiento de una barrera de estacionamiento inteligente que detecta la presencia de vehículos mediante un sensor ultrasónico, acciona un motor para abrir el paso de manera automática y utiliza indicadores lumínicos LED para mostrar el estado actual del sistema.
@@ -89,4 +89,6 @@ graph TD
     J --> D
     G -- No --> K[Girar Servo a 0° - Cerrar Barrera]
     K --> C
+
+
 
