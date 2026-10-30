@@ -89,3 +89,4 @@ graph TD
     J --> D
     G -- No --> K[Girar Servo a 0° - Cerrar Barrera]
     K --> C
+
