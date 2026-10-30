@@ -1,25 +1,25 @@
-# barrera# 🚧 Smart Barrier — Sistema de Barrera Automática para Estacionamiento
+# barrera# mart Barrier — Sistema de Barrera Automática para Estacionamiento
 
-## 📖 Sobre el Proyecto
+##  Sobre el Proyecto
 Sistema de control de acceso vehicular automatizado desarrollado sobre Arduino UNO. Su objetivo principal es simular el funcionamiento de una barrera de estacionamiento inteligente que detecta la presencia de vehículos mediante un sensor ultrasónico, acciona un motor para abrir el paso de manera automática y utiliza indicadores lumínicos LED para mostrar el estado actual del sistema.
 
 ---
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 * **Ainara Guevara** (Scrum Master)
 * **Jazmín Banes** (Developer / Hardware)
 * **Ignacio Demo** (Developer / Software)
 
 ---
 
-## 👤 Historia de Usuario
+##  Historia de Usuario
 * **Como** conductor de un vehículo, 
 * **quiero** que la barrera del estacionamiento se abra automáticamente al acercarme y se cierre al pasar, 
 * **para** agilizar el ingreso al predio de forma segura y sin necesidad de manipulación manual.
 
 ---
 
-## 📋 Requerimientos Funcionales
+## Requerimientos Funcionales
 1. **RF01 - Detección de Vehículos:** El sensor ultrasónico mide continuamente la distancia y detecta un vehículo si se encuentra a una distancia menor o igual a 15 cm.
 2. **RF02 - Apertura Automática:** Al detectar presencia, el servomotor gira a 90° levantando la pluma de la barrera.
 3. **RF03 - Señalización Lumínica:** Durante la apertura, el LED verde se enciende y el LED rojo se apaga.
@@ -28,7 +28,7 @@ Sistema de control de acceso vehicular automatizado desarrollado sobre Arduino U
 
 ---
 
-## ⚙️ Requerimientos No Funcionales
+##  Requerimientos No Funcionales
 1. **RNF01 - Tiempo de Respuesta:** La reacción del sensor y la apertura del motor ocurren en menos de 500 ms tras la detección.
 2. **RNF02 - Visibilidad:** Los indicadores LED deben ser claramente distinguibles a una distancia de al menos 3 metros.
 3. **RNF03 - Mantenibilidad del Código:** El software está estructurado en C++ de manera modular y comentado para facilitar futuras modificaciones.
@@ -37,7 +37,7 @@ Sistema de control de acceso vehicular automatizado desarrollado sobre Arduino U
 
 ---
 
-## 💵 Componentes y Precios
+##  Componentes y Precios
 
 | Componente | Cantidad | Precio Estimado (ARS) |
 | :--- | :---: | :---: |
@@ -52,7 +52,7 @@ Sistema de control de acceso vehicular automatizado desarrollado sobre Arduino U
 
 ---
 
-## 🔌 Conexiones y Mapeo de Pines
+##  Conexiones y Mapeo de Pines
 
 El circuito utiliza entradas y salidas digitales y analógicas/PWM de la placa Arduino de la siguiente manera:
 
@@ -73,7 +73,7 @@ El circuito utiliza entradas y salidas digitales y analógicas/PWM de la placa A
 
 ---
 
-## 📊 Diagrama de Flujo del Sistema
+## Diagrama de Flujo del Sistema
 
 ```mermaid
 graph TD
